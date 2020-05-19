@@ -1,0 +1,33 @@
+{
+
+    "config": {
+
+        "wifi-ssid": {
+
+            "help": "WiFi SSID",
+
+            "value": "\"HTC11\""
+
+        },
+
+        "wifi-password": {
+
+            "help": "WiFi Password",
+
+            "value": "\"0975294028\""
+
+        }
+
+    },
+
+    "target_overrides": {
+
+        "*": {
+
+            "platform.stdio-convert-newlines": true
+
+        }
+
+    }
+
+}
